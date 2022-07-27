@@ -32,6 +32,8 @@
 		</repository>
 	</repositories>
 
+	<!-- ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★Spring★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ -->
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -47,6 +49,8 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<!-- ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★/Spring★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ -->
 		
 		<!-- ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★Seasar2★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ -->
 		<!-- https://mvnrepository.com/artifact/org.seasar.container/s2-framework -->
@@ -61,7 +65,26 @@
 			<artifactId>s2-extension</artifactId>
 			<version>2.4.48</version>
 		</dependency>
+
 		<!-- ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★/Seasar2★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ -->
+	
+		<!-- ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★OTHER★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.7</version>
+		</dependency>
+
+		<!-- ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★/OTHER★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★-->
+
 	</dependencies>
 
 	<build>
